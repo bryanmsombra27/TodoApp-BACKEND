@@ -1,6 +1,8 @@
 const express = require('express');
 const cors = require('cors');
+const { conexionBD } = require('./config/db');
 const port  = 3000;
+
 
 const app = express();
 
@@ -13,9 +15,10 @@ let tareas =[
     {id:Math.round(Math.random()*100 * new Date().getSeconds() +  new Date().getMilliseconds()),nombre:'Aprender Tailwind CSS',estado:false},
     {id:Math.round(Math.random()*100 * new Date().getSeconds() +  new Date().getMilliseconds()),nombre:'Aprender Bootstrap',estado:false},
 ];
+conexionBD();
 
 
-
-app.listen(port, () => {
-    console.log('escuchando peticiones por el puerto 3000');
-});
+    app.listen(port, () => {
+        console.log('escuchando peticiones por el puerto 3000');
+    });
+    
