@@ -18,7 +18,13 @@ ctrl + c
 ```
 
 # documentacion a Sequelize:
-[documentacion de sequelize para conectar a la base de datos](https://sequelize.org/docs/v6/getting-started/)
-[documentacion de sequelize para crear modelos](https://sequelize.org/docs/v6/core-concepts/model-basics/)
-[documentacion de sequelize para las consultas](https://sequelize.org/docs/v6/core-concepts/model-querying-basics/)
-[documentacion de sequelize para relacionar las tablas](https://sequelize.org/docs/v6/core-concepts/assocs/)
+[documentacion de sequelize para conectar a la base de datos](https://sequelize.org/docs/v6/getting-started/)  
+
+
+[documentacion de sequelize para crear modelos](https://sequelize.org/docs/v6/core-concepts/model-basics/)  
+
+
+[documentacion de sequelize para las consultas](https://sequelize.org/docs/v6/core-concepts/model-querying-basics/)  
+
+
+[documentacion de sequelize para relacionar las tablas](https://sequelize.org/docs/v6/core-concepts/assocs/)  
